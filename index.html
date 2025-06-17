@@ -1,16 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jaipur</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-pink-300">
-    <nav class="bg-[#f7a668] w-full h-16 flex items-center px-4 text-2xl"><a href="/">Jaipur</a></nav>
-    <div class="flex justify-center items-center h-[calc(100vh-4rem)] flex-col gap-12">
-        <p class="text-7xl text-orange-100">Jaipur</p>
-        <img class="h-[25rem] w-[35rem] border rounded-2xl shadow-2xl" src="https://images.pexels.com/photos/784879/pexels-photo-784879.jpeg?auto=compress&cs=tinysrgb&w=600">
+<body class="m-0 min-h-screen relative">
+  <div class="fixed inset-0 bg-[url('https://www.remotelands.com/travelogues/app/uploads/2019/01/Amber-fort-header.jpg')] bg-cover bg-center bg-no-repeat"></div>
+  <div class="fixed inset-0 bg-black/40"></div>
+  <div class="relative z-10">
+    <nav class="bg-orange-400/80 backdrop-blur-sm w-full h-16 flex items-center px-4 text-2xl text-white shadow-md">
+      <a href="/">Jaipur</a>
+</nav>
+
+    <div class="flex justify-center items-center h-[calc(100vh-4rem)]">
+      <div class="bg-white/10 backdrop-blur-md rounded-3xl p-8 border border-white/20 shadow-2xl">
+        <h1 class="text-[12rem] font-extrabold leading-none text-center text-transparent bg-[url('https://images.pexels.com/photos/784879/pexels-photo-784879.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1400&w=1400')] bg-cover bg-center bg-clip-text">
+          Jaipur
+        </h1>
     </div>
+    </div>
+  </div>
 </body>
 </html>
