@@ -3,24 +3,75 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Jaipur</title>
+  <title>Jaipur - The Pink City</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="m-0 min-h-screen relative">
-  <div class="fixed inset-0 bg-[url('https://www.remotelands.com/travelogues/app/uploads/2019/01/Amber-fort-header.jpg')] bg-cover bg-center bg-no-repeat"></div>
-  <div class="fixed inset-0 bg-black/40"></div>
-  <div class="relative z-10">
-    <nav class="bg-orange-400/80 backdrop-blur-sm w-full h-16 flex items-center px-4 text-2xl text-white shadow-md">
-      <a href="/">Jaipur</a>
-</nav>
+<body class="m-0 min-h-screen relative overflow-x-hidden">
 
-    <div class="flex justify-center items-center h-[calc(100vh-4rem)]">
-      <div class="bg-white/10 backdrop-blur-md rounded-3xl p-8 border border-white/20 shadow-2xl">
-        <h1 class="text-[12rem] font-extrabold leading-none text-center text-transparent bg-[url('https://images.pexels.com/photos/784879/pexels-photo-784879.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1400&w=1400')] bg-cover bg-center bg-clip-text">
+
+  <div class="fixed top-0 left-0 w-full h-full bg-[url('https://www.remotelands.com/travelogues/app/uploads/2019/01/Amber-fort-header.jpg')] bg-cover bg-center bg-no-repeat"></div>
+  <div class="fixed top-0 left-0 w-full h-full bg-black/40"></div>
+ 
+  <div class="relative z-10">
+
+    <nav class="bg-orange-400/80 backdrop-blur-sm w-full h-16 flex items-center px-6 text-2xl text-white shadow-lg sticky top-0 z-20">
+      <a href="/" class="font-bold hover:text-orange-100 transition-colors">Jaipur</a>
+    </nav>
+
+
+    <section class="min-h-screen flex items-center justify-center px-4 py-16">
+      <div class="bg-black/50 backdrop-blur-md rounded-3xl p-8 md:p-12 border border-white/20 shadow-2xl max-w-4xl w-full">
+        <h1 class="text-6xl md:text-8xl lg:text-9xl xl:text-[10rem] font-extrabold leading-none text-center text-transparent bg-[url('https://images.pexels.com/photos/784879/pexels-photo-784879.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1400&w=1400')] bg-cover bg-center bg-clip-text mb-6">
           Jaipur
         </h1>
+        <p class="text-white/90 text-xl md:text-2xl text-center font-light">
+          The Magnificent Pink City of Rajasthan
+        </p>
+      </div>
+    </section>
+    
+   
+<section class="py-16 px-4">
+    <div class="max-w-4xl mx-auto">
+    <div class="bg-black/50 backdrop-blur-md rounded-3xl p-8 md:p-12 border border-white/20 shadow-2xl">
+        <div class="text-white text-center">
+        <h2 class="text-4xl md:text-5xl font-bold mb-6 text-orange-300">The Pink City</h2>
+        <p class="text-lg md:text-xl leading-relaxed mb-8 text-white/90 max-w-3xl mx-auto">
+            Discover the magnificent heritage of Rajasthan's capital city, where royal palaces, ancient forts, and vibrant bazaars tell tales of a glorious past.
+        </p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-sm md:text-base">
+            <div class="bg-white/10 rounded-xl p-6 backdrop-blur-sm border border-white/10 hover:bg-white/15 transition-all">
+            <h3 class="font-semibold mb-3 text-orange-300 text-lg">Historic Forts</h3>
+            <p class="text-white/80">Amber Fort, Nahargarh Fort, Jaigarh Fort</p>
+            </div>
+            <div class="bg-white/10 rounded-xl p-6 backdrop-blur-sm border border-white/10 hover:bg-white/15 transition-all">
+            <h3 class="font-semibold mb-3 text-orange-300 text-lg">Royal Palaces</h3>
+            <p class="text-white/80">City Palace, Hawa Mahal, Jal Mahal</p>
+            </div>
+        </div>
+        </div>
     </div>
     </div>
+</section>
+
+    <section class="py-16 px-4 pb-24">
+      <div class="max-w-4xl mx-auto">
+        <div class="bg-black/50 backdrop-blur-md rounded-3xl p-8 md:p-12 border border-white/20 shadow-2xl">
+          <div class="text-white text-center">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6 text-orange-300">Cultural Heritage</h2>
+            <p class="text-lg md:text-xl leading-relaxed mb-8 text-white/90 max-w-3xl mx-auto">
+              Experience the rich traditions, colorful festivals, and exquisite craftsmanship that make Jaipur a UNESCO World Heritage Site.
+            </p>
+            <div class="flex flex-wrap justify-center gap-4">
+              <span class="bg-orange-400/30 hover:bg-orange-400/40 px-6 py-3 rounded-full text-sm md:text-base border border-orange-400/20 transition-all cursor-default">Traditional Crafts</span>
+              <span class="bg-orange-400/30 hover:bg-orange-400/40 px-6 py-3 rounded-full text-sm md:text-base border border-orange-400/20 transition-all cursor-default">Local Cuisine</span>
+              <span class="bg-orange-400/30 hover:bg-orange-400/40 px-6 py-3 rounded-full text-sm md:text-base border border-orange-400/20 transition-all cursor-default">Festivals</span>
+              <span class="bg-orange-400/30 hover:bg-orange-400/40 px-6 py-3 rounded-full text-sm md:text-base border border-orange-400/20 transition-all cursor-default">Architecture</span>
+               </div>
+          </div>
+    </div>
+        </div>
+    </section>
   </div>
 </body>
 </html>
